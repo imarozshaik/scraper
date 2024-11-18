@@ -31,7 +31,13 @@ Install all the required libraries. They are listed in requirements.txt file.
     ```bash
     pip install -r requirements.txt
     ```
+### Method 2: Without a Virtual Environment
 
+1. Install the required dependencies:
+
+    ```
+    pip install -r requirements.txt
+    ```
 ## Setup Environment Variables
 
 This project uses `.env` file to store sensitive API keys. Follow these steps to set up the environment variables:
@@ -50,13 +56,7 @@ This project uses `.env` file to store sensitive API keys. Follow these steps to
     OPENAI_API_KEY = your_openai_api_key
     ```
 
-### Method 2: Without a Virtual Environment
 
-1. Install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ## Usage Guide
 1. Run the Streamlit app once all files are setup. Use the command
